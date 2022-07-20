@@ -15,9 +15,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://172.16.26.129:32768/vas-service-gp?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    url: jdbc:mysql://ip:port/vas-service-gp?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
     username: root
-    password: Synes1s@dev3l0p3rS
+    password: 
   jpa:
     show-sql: true
     hibernate:
@@ -30,9 +30,9 @@ logfile:
   path: /var/log/vas/gp
 
 vas-gp:
-  url: http://192.168.101.36
+  url: url
   path:
-    subscription: /epp_gp/gp_subscriber_info_epp.php
+    subscription: 'path'
 
 send-gp:
-  url: https://10.21.11.16:9155/digital5/messaging/v5.2/sendsms
+  url: "url"
