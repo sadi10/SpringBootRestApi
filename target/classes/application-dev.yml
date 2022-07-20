@@ -1,0 +1,37 @@
+server:
+  port: 8855
+#generating log file
+logging:
+  file:
+    path: /var/log/vas/gp
+    name: gp-vas.log
+  level:
+    com:
+      synesisit:
+        gpvas: INFO
+spring:
+  main:
+    log-startup-info: OFF
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vas-service-gp?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
+logfile:
+  path: /var/log/vas/gp
+
+vas-gp:
+  url: http://192.168.101.36
+  path:
+    subscription: /epp_gp/gp_subscriber_info_epp.php
+
+send-gp:
+  url: https://10.21.11.16:9155/digital5/messaging/v5.2/sendsms

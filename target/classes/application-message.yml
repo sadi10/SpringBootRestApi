@@ -1,0 +1,3 @@
+message:
+    keyword:
+      invalid: 'To subscribe please type START<space>EPP<space>Passport Application ID and send to 16445 or To unsubscribe please type STOP<space>EPP and send to 16445'

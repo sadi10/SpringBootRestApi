@@ -1,0 +1,77 @@
+
+Time::2022-04-05 12:09:42.391
+From Api::0:0:0:0:0:0:0:1
+Host Api::/gpvas/api/v1/notification/push-pull/zero-charging
+Request::{
+	"notify": {
+		"accesInfo": {
+			"endUserId": "576829114898049810",
+			"serverReferenceCode": "3040110076473338675779004",
+			"language": "BN",
+			"accesschannel": "SMS"
+		},
+		"smsInfo": {
+			"totalAmountCharged": "0.00",
+			"msgType": "SMSTEXT",
+			"productIdentifier": "21568",
+			"msgTransactionId": "3040110076473338675779004",
+			"servcieIdentifier": "SUB00058600001",
+			"shortcode": "19283",
+			"message": "START TEPP 290388273635"
+		}
+	}
+}
+
+Response::
+StatusInfo(statusCode=200, referenceCode=2022040512070762400000001, serverReferenceCode=3040110076473338675779004)
+======================================================================
+Time::2022-04-05 13:57:08.549
+From Api::0:0:0:0:0:0:0:1
+Host Api::/gpvas/api/v1/notification/push-pull/zero-charging
+Request::{
+	"notify": {
+		"accesInfo": {
+			"endUserId": "576829114898049810",
+			"serverReferenceCode": "3040110076473338675779004",
+			"language": "BN",
+			"accesschannel": "SMS"
+		},
+		"smsInfo": {
+			"totalAmountCharged": "0.00",
+			"msgType": "SMSTEXT",
+			"productIdentifier": "21568",
+			"msgTransactionId": "3040110076473338675779004",
+			"servcieIdentifier": "SUB00058600001",
+			"shortcode": "19283",
+			"message": "START TEPP 012373848"
+		}
+	}
+}
+Response::
+StatusInfo(statusCode=200, referenceCode=2022040512094238900000002, serverReferenceCode=3040110076473338675779004)
+======================================================================
+Time::2022-04-05 15:21:34.5
+From Api::0:0:0:0:0:0:0:1
+Host Api::/gpvas/api/v1/notification/push-pull/zero-charging
+Request::{
+	"notify": {
+		"accesInfo": {
+			"endUserId": "576829114898049810",
+			"serverReferenceCode": "3040110076473338675779004",
+			"language": "BN",
+			"accesschannel": "SMS"
+		},
+		"smsInfo": {
+			"totalAmountCharged": "0.00",
+			"msgType": "SMSTEXT",
+			"productIdentifier": "21568",
+			"msgTransactionId": "3040110076473338675779004",
+			"servcieIdentifier": "SUB00058600001",
+			"shortcode": "19283",
+			"message": "START TEPP 012373848"
+		}
+	}
+}
+Response::
+StatusInfo(statusCode=200, referenceCode=2022040513570854300000003, serverReferenceCode=3040110076473338675779004)
+======================================================================

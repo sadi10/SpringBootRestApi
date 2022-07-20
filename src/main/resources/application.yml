@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev, message
+  application:
+    name: vas-gp
+
